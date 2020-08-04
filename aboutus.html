@@ -1,15 +1,23 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>About US</title>
-    <style>
+      <style>
+          .carousel-item img{
+              width:100%;
+              height:100%;
+          }
+          .carousel-control-prev,
+          .carousel-control-next{
+              width:50px;
+              height:50px;
+              margin-top:100px;
+              background:orange;
+          }
+          .jumbotron-fluid{
+            background-image: url('images/n2.webp'); 
+            background-repeat:no-repeat;
+            background-size:cover; 
+          }
         .navbar .btn{
             border-top-left-radius:25px;
             border-bottom-right-radius:25px;
@@ -19,7 +27,19 @@
       border-top-left-radius:25px;
             border-bottom-right-radius:25px;
     }
-    </style>
+      </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="OwlCarousel2-2.3.4 (1)/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"> -->
+   <!-- <link rel="stylesheet" href="OwlCarousel2-2.3.4 (1)/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"> -->
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>AboutUs</title>
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
@@ -30,15 +50,18 @@
     <span class="navbar-toggler-icon"></span>
         </button>
     <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
             <li class="nav-items">
-                <a class="nav-link text-white" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-items">
                 <a class="nav-link active btn btn-info" href="aboutus.html">AboutUs</a>
             </li>
+<li class="nav-items">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
             <li class="nav-items">
-                <a class="nav-link" href="">ContactUs</a>
+                <a class="nav-link" href="contact.html">ContactUs</a>
             </li>
          
         </ul>
@@ -46,16 +69,255 @@
     <button class="btn btn-primary" data-target="#signin" data-toggle="modal">SignUp</button>
     
     </nav>
-      <div class="jumbotron jumbotron-fluid text-primary bg-dark my-5">
-    <h1 class="font-weight-bold">AboutUs</h1>
+
+
+
+
+      <div class="jumbotron jumbotron-fluid">
+          
+          <!-- <img src="images/n1.webp" alt=""> -->
+          <h3 class="text-white">About US</h3>
+      </div>
+      <div class="jumbotron">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-4">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/image1.jpeg"  alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/n1.webp"  alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/n3.jpg"  alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            
+              </div>
+              <div class="col-sm-7">
+<h2 class="text-primary">Our purpose</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia asperiores fugit vero? Magni consequatur rerum sed sequi deleniti at quaerat minima exercitationem quam aperiam, commodi qui. Similique natus nesciunt, corporis culpa, autem quisquam maxime hic accusamus delectus itaque aspernatur, asperiores nostrum at. Perferendis omnis, vitae autem unde nulla voluptas incidunt odio dolorum maxime. Perferendis sed maxime at dolore quos libero, sit architecto quo neque voluptates est, quas quae. Reiciendis voluptate similique sunt officiis, repellat sed omnis deleniti? Eum ipsa est, optio quasi, magni iure dolorem iste consectetur ad tempora nam. Optio, quam. Culpa esse sunt officiis iste tempore, veritatis praesentium.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="jumbotron">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-sm-4">
+                <div class="item">
+                    <img src="images/picachu.png" width="200px" height="200px" alt="" class="m-5" style="border:1px solid orange;border-radius:60px;box-shadow:6px 6px #787878;">
+                </div>
+            </div>
+            <div class="col-sm">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quaerat recusandae impedit. Veritatis maxime nostrum incidunt iusto enim omnis optio? Totam cupiditate suscipit quidem qui. Voluptates suscipit excepturi amet at.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
-    <img class="img-thumbnail" src="/images/images/n2.webp" alt="" style="float:right">
-    <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati inventore voluptatem facilis eveniet, sint blanditiis commodi at possimus laborum culpa eligendi doloribus, ad unde voluptate reprehenderit nam aliquam perferendis aliquid alias laudantium ex? Libero deleniti dolorum incidunt fugiat perferendis, obcaecati labore totam voluptatem, laborum porro molestias velit voluptas ea, nulla ad excepturi. Sed accusantium maxime ipsam delectus similique tenetur iure sint unde corrupti? Error, dolor. Impedit corporis quam optio placeat ut quia minus libero accusamus ratione quisquam quo eaque eum error hic consequuntur soluta consectetur iste ipsa debitis, est repellat sed ad? Et qui cupiditate unde eum ea ducimus explicabo velit animi in ad, aliquid reprehenderit vitae quisquam quas accusantium. In, sed tempora expedita molestias laborum ut consequuntur quo! Aspernatur, consequuntur? Magni minima reiciendis est placeat incidunt recusandae doloribus aspernatur saepe blanditiis ab ad praesentium aperiam soluta ea vero, adipisci voluptatem consectetur commodi temporibus dignissimos consequuntur culpa! Beatae facilis dolores qui laboriosam sit, similique rerum voluptas aliquam soluta earum eaque commodi corrupti sed deleniti velit molestiae culpa enim aut officia. Vero ea eum earum illum quidem facere corporis eius cumque vel ipsum, placeat, molestias porro facilis aliquid assumenda rem laudantium officia blanditiis doloribus. Laborum ea deserunt maiores tempore quasi officiis eligendi sunt nemo beatae assumenda qui magnam dolores, commodi sint. Quod maiores sapiente ex doloribus porro dignissimos dolorem, at, suscipit aut quasi similique exercitationem, ipsam ipsum voluptatibus deleniti? Expedita aperiam adipisci iure consequatur dolor, repudiandae deleniti eos culpa debitis praesentium assumenda, doloremque nam reiciendis ea aut odit sint! Laboriosam laudantium earum eum nam itaque nisi, quaerat alias ad. Distinctio a quam aut iste atque, facilis quidem delectus, tempore placeat corrupti, soluta consequatur? Vel, repellendus natus harum illum, delectus vitae blanditiis, molestias culpa incidunt ratione mollitia quas. Culpa hic quam dolore, molestias natus nam at illo velit laboriosam qui, eaque fuga fugiat cum consequatur modi possimus autem doloremque, earum nesciunt delectus! Minus, quibusdam alias! Autem modi debitis facere soluta optio itaque unde. Sequi a nihil cum, beatae odit libero? Sed omnis eligendi dignissimos, ea debitis alias voluptate natus repellendus ut eos, quasi sapiente nihil vel quae doloremque accusantium consequuntur esse deserunt dolorum nisi reprehenderit at mollitia? Quaerat tempora, vitae aut repellendus deserunt quas in reprehenderit obcaecati error nihil esse dolorum vero optio sint vel dolor id, corporis accusamus eos. Quaerat illo dolor quis voluptas voluptatum eum in deserunt, deleniti vel consequuntur provident unde, corporis vitae velit necessitatibus quae quas reiciendis maiores consequatur! Illum, sint veniam! In recusandae dolor dolore perferendis maxime fuga obcaecati nemo eveniet aliquam, alias porro aperiam vel dicta accusamus quam sapiente? Cum quidem nostrum eos, ut ipsam inventore tempora commodi autem voluptates sed placeat dolores, fugiat quasi rerum velit, reiciendis obcaecati quis. Quia reiciendis quasi magnam, magni sint nesciunt natus, facilis qui quis cupiditate aspernatur porro omnis repellendus libero eum perferendis recusandae aliquam esse. Deserunt asperiores iure voluptas mollitia molestiae nostrum. Accusantium explicabo ullam minima harum dicta eius omnis cupiditate, ex neque voluptates nobis quas incidunt esse commodi suscipit consequuntur iste? Cumque recusandae enim aliquid aut ex.</p>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quaerat recusandae impedit. Veritatis maxime nostrum incidunt iusto enim omnis optio? Totam cupiditate suscipit quidem qui. Voluptates suscipit excepturi amet at.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <div class="item">
+                    <img src="images/picachu.png"  width="200px" height="200px" alt="" style="float:right;border:1px solid orange;border-radius:60px;box-shadow:6px 6px #787878;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="signin">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">SignUp</h3>
+<button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+               
+                
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" class="form-control">
+                <button  class="btn btn-success">Submit</button>
+                <button  class="btn btn-success" data-dismiss="modal">Close</button>
+               
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small bg-dark text-white pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+        <p>
+          <a href="#!" class="text-white">MDBootstrap</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white">MDWordPress</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white">BrandFlow</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white">Bootstrap Angular</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <p>
+          <a href="#!" class="text-white">Your Account</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!" class="text-white">Help</a>
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/">
+            <strong class="text-white"> MDBootstrap.com</strong>
+          </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1" href="https://www.facebook.com/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+<!-- <script src="OwlCarousel2-2.3.4 (1)/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>   -->
+</body>
 </html>
